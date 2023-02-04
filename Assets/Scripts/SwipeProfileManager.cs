@@ -5,12 +5,13 @@ using TMPro;
 
 public class SwipeProfileManager : MonoBehaviour
 {
-    public SwipeProfileScriptableObject ProfileValues;
-    public TMP_Text NameText;
-
+    public SwipeProfileScriptableObject[] Profiles;
+    
     void Start()
     {
-        NameText.text = ProfileValues.Name;
+        Profiles = Resources.LoadAll<SwipeProfileScriptableObject>("Profiles");
+
+        Debug.Log($"Found {Profiles.Length} Profiles");
     }
     
     void Update()
