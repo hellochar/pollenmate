@@ -58,6 +58,9 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+#Android stuff
+BurstAoTSettings_Android.json
+
 # xcode
 xcode*
 
