@@ -488,6 +488,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1141372551}
+  targetScene:
+    m_SceneAsset: {fileID: 102900000, guid: 9ddf22c9821d23047b4f79af096c4edf, type: 3}
+    m_SceneName: SwipeScreen
+  delay: 1
 --- !u!1 &1924586671
 GameObject:
   m_ObjectHideFlags: 0
