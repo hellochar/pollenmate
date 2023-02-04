@@ -11,11 +11,13 @@ public class SwipeProfile : MonoBehaviour
     public void FromSwipeProfile(SwipeProfileScriptableObject profile)
     {
         Profile = profile;
+        Debug.Log($"PROFILE NAME: {Profile.Name}");
+        NameText.text = Profile.Name;
     }
 
     void Start()
     {
-        NameText.text = Profile.Name;
+
     }
     
     void Update()
